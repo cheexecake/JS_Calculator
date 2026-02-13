@@ -17,7 +17,11 @@ function division(n1,n2){
 }
 
 
-subtraction(3,4);
+//subtraction(3,4);
 
 
-console.log(subtraction(3,4))
+//console.log(subtraction(3,4))
+
+document.getElementById("7").addEventListener("click",function(){
+    document.getElementById("inputbox").value = 7;
+})
